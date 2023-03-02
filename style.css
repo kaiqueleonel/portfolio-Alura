@@ -59,6 +59,12 @@ body {
     text-decoration: none;
     border-radius: 8px;
     border: solid 2px #22D4FD;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+.botao:hover{
+    background-color: #272727;
 }
 
 .apresentação__conteudo__botao-titulo{
