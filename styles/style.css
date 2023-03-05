@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@200;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: #000000;
+    color: #F6F6F6;
+}
+
+.cabecalho{
+    padding: 2% 0% 0% 15%;
+}
+
+.cabecalho-menu{
+    display: flex;
+    gap: 80px;
+}
+
+.cabecalho__menu__link{
+    color: #22D4FD;
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.apresentacao {
+    margin: 5% 15%;
+    display: flex;
+    align-items: center;
+    gap: 5% ;
+}
+
+.titulo-distaques {
+    color: #22D4FD;
+}
+
+.apresentacao__conteudo {
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.apresentacao__conteudo__titulo {
+    font-size: 36px;
+    font-family: 'Krona One', sans-serif;
+}
+
+.apresentacao__conteudo__texto {
+    font: 24px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.apresentacao__conteudo__botao {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.botao {
+    color: #F6F6F6;
+    width: 378px;
+    padding: 16px 0;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    text-decoration: none;
+    border-radius: 8px;
+    border: solid 2px #22D4FD;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+.botao:hover{
+    background-color: #272727;
+}
+
+.foto__perfil{
+    height: 530px;
+    width: 465px;
+}
+
+.apresentação__conteudo__botao-titulo{
+    font-family: 'Krona one', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: #F6F6F6;
+}
+
+.rodape{
+    background-color: #22D4FD;
+    text-align: center;
+    color: black;
+}
+
+.rodape{
+    color: #000000;
+    background-color: #22D4FD;
+    padding: 24px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.apresentacao__conteudo__texto a{
+    text-decoration: none;
+    color: #22D4FD;
