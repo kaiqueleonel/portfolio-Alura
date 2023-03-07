@@ -11,18 +11,18 @@ body {
     color: #F6F6F6;
 }
 
-.cabecalho {
+.cabecalho{
     padding: 2% 0% 0% 15%;
 }
 
-.cabecalho-menu {
+.cabecalho-menu{
     display: flex;
     gap: 80px;
 }
 
-.cabecalho__menu__link {
+.cabecalho__menu__link{
     color: #22D4FD;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     text-decoration: none;
@@ -32,7 +32,7 @@ body {
     margin: 5% 15%;
     display: flex;
     align-items: center;
-    gap: 5%;
+    gap: 5% ;
 }
 
 .titulo-distaques {
@@ -47,17 +47,17 @@ body {
 }
 
 .apresentacao__conteudo__titulo {
-    font-size: 36px;
+    font-size: 2.25rem;
     font-family: 'Krona One', sans-serif;
 }
 
 .apresentacao__conteudo__texto {
-    font: 24px;
+    font-size: 1.5rem;
     font-family: 'Montserrat', sans-serif;
 }
 
 .apresentacao__conteudo__botao {
-    display: flex;
+    display:flex;
     flex-direction: column;
     align-items: center;
     gap: 20px;
@@ -71,7 +71,7 @@ body {
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
-    font-size: 24px;
+    font-size: 1.5rem;
     text-decoration: none;
     border-radius: 8px;
     border: solid 2px #22D4FD;
@@ -79,39 +79,38 @@ body {
     justify-content: center;
     gap: 16px;
 }
-
-.botao:hover {
+.botao:hover{
     background-color: #272727;
 }
 
-.foto__perfil {
+.foto__perfil{
     height: 530px;
     width: 465px;
 }
 
-.apresentação__conteudo__botao-titulo {
+.apresentação__conteudo__botao-titulo{
     font-family: 'Krona one', sans-serif;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 400;
     color: #F6F6F6;
 }
 
-.rodape {
+.rodape{
     background-color: #22D4FD;
     text-align: center;
     color: black;
 }
 
-.rodape {
+.rodape{
     color: #000000;
     background-color: #22D4FD;
     padding: 24px;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 400;
 }
 
-.apresentacao__conteudo__texto a {
+.apresentacao__conteudo__texto a{
     text-decoration: none;
     color: #22D4FD;
