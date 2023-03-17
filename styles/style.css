@@ -113,3 +113,20 @@ body {
 .apresentacao__conteudo__texto a{
     text-decoration: none;
     color: #22D4FD;
+}
+
+
+@media (max-width:1200px){
+
+    .cabecalho{
+        padding: 10%;
+    }
+
+    .cabecalho-menu{
+        justify-content: center;
+    }
+
+    .apresentacao{
+        flex-direction: column-reverse;
+    }
+}
